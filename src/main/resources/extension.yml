@@ -1,0 +1,12 @@
+# The unique identifier for this extension
+name: MCValacTemplate
+
+# The version of this extension
+version: ${project_version}
+
+# The full package path to your main class
+main: ${project_group}.template.Template
+
+# Optional: Ensure MCBackpack is loaded first
+base:
+  depend: [MCBackpack]
